@@ -132,12 +132,12 @@ export default function Todo() {
 }
 
 
-export async function getServerSideProps(context: any) {
-  const res = await fetch(process.env.BACKEND_URL+'/api/todos')
-  const todos = await res.json()
-  return {props: {todos}}
-}
+// export async function getServerSideProps(context: any) {
+//   const res = await fetch(process.env.BACKEND_URL+'/api/todos')
+//   const todos = await res.json()
+//   return {props: {todos}}
+// }
 
-export async function getServer
+// export async function getServer
 
 // export default Todo
